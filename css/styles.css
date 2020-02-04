@@ -65,3 +65,34 @@ h2 {
   color: white;
   cursor: pointer;
 }
+
+#score {
+  text-align: center;
+  font-size: 21px;
+}
+
+#mode-button {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  font-size: 21px;
+  line-height: 55px;
+  margin: 1%;
+  text-align: center;
+  width: 456px;
+}
+
+#mode-button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+table {
+  border: 2px solid;
+  margin-top: 60px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
