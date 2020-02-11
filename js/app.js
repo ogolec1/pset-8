@@ -32,6 +32,7 @@ window.onload = init;
 document.getElementById("board").onclick = takeTurn;
 document.getElementById("reset-button").onclick = init;
 document.getElementById("reset-scoreboard").onclick = resetScoreboard;
+
 function init() {
   board = [
     "", "", "",
