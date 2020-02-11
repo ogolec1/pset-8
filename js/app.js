@@ -93,6 +93,7 @@ function takeTurn(e) {
     }
   }
 }
+
 function getWinner() {
   let winner = null;
   winningConditions.forEach(function(condition, index) {
