@@ -21,7 +21,7 @@ const winningConditions = [
 let board;
 let turn;
 let win;
-let determine_first_player;
+let determineFirstPlayer;
 let x_wins = 0;
 let o_wins = 0;
 let ties= 0
@@ -51,7 +51,7 @@ function init() {
     } else if (first_Player === "O" || first_Player === "o") {
       turn = "O";
     } else {
-      determine_first_player = L;
+      determineFirstPlayer = L;
     }
   } while (first_Player !== "X" && first_Player !== "x" && first_Player !== "O" && first_Player !== "o");
   win = null;
