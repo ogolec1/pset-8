@@ -76,7 +76,6 @@ function render() {
   tie_score.innerHTML = ties
   message.textContent =
     win === "T" ? "It's a tie!" : win ? `${win} wins!` : `Turn: ${turn}`;
-
 }
 
 function takeTurn(e) {
@@ -93,6 +92,7 @@ function takeTurn(e) {
     }
   }
 }
+
 function getWinner() {
   let winner = null;
   winningConditions.forEach(function(condition, index) {
